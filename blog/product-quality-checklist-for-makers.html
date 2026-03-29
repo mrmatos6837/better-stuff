@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Quality Checklist for Makers — Better Stuff</title>
+  <meta name="description" content="A comprehensive product quality checklist for indie makers and small teams. Covers UX, performance, accessibility, and launch readiness.">
+  <meta name="keywords" content="product quality checklist, product launch checklist, maker checklist, product quality assurance, indie maker tools">
+  <link rel="canonical" href="/blog/product-quality-checklist-for-makers.html">
+
+  <meta property="og:title" content="Product Quality Checklist for Makers">
+  <meta property="og:description" content="A comprehensive product quality checklist for indie makers and small teams.">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Product Quality Checklist for Makers">
+  <meta name="twitter:description" content="A comprehensive product quality checklist for indie makers and small teams.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Product Quality Checklist for Makers",
+    "description": "A comprehensive product quality checklist for indie makers and small teams.",
+    "author": { "@type": "Organization", "name": "Better Stuff" },
+    "publisher": { "@type": "Organization", "name": "Better Stuff" },
+    "datePublished": "2026-03-29",
+    "dateModified": "2026-03-29"
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #0a0a0a; --fg: #fafafa; --accent: #6366f1; --accent-hover: #818cf8; --muted: #a1a1aa; --surface: #18181b; --border: #27272a; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    nav { position: fixed; top: 0; width: 100%; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; background: rgba(10,10,10,0.8); backdrop-filter: blur(12px); z-index: 100; border-bottom: 1px solid var(--border); }
+    nav .logo { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em; }
+    nav .logo span { color: var(--accent); }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+    nav a:hover { color: var(--fg); }
+    article { max-width: 720px; margin: 0 auto; padding: 7rem 2rem 4rem; }
+    article h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 1rem; }
+    article .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+    article h2 { font-size: 1.5rem; font-weight: 700; margin: 2.5rem 0 1rem; letter-spacing: -0.01em; }
+    article h3 { font-size: 1.15rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+    article p { color: #d4d4d8; margin-bottom: 1.25rem; font-size: 1.05rem; }
+    article ul { margin: 0 0 1.25rem 1.5rem; color: #d4d4d8; }
+    article li { margin-bottom: 0.5rem; font-size: 1.05rem; }
+    article strong { color: var(--fg); }
+    .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+    .back-link:hover { color: var(--accent-hover); }
+    .checklist { list-style: none; margin-left: 0; }
+    .checklist li::before { content: "\2610  "; color: var(--accent); }
+    .cta-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin-top: 3rem; }
+    .cta-box h3 { margin-bottom: 0.5rem; }
+    .cta-box p { color: var(--muted); margin-bottom: 1rem; }
+    .cta-box a { display: inline-block; padding: 0.75rem 1.75rem; background: var(--accent); color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
+    .cta-box a:hover { background: var(--accent-hover); }
+    footer { text-align: center; padding: 3rem 2rem; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" style="text-decoration:none;color:inherit"><div class="logo">better<span>.</span>stuff</div></a>
+  <div style="display:flex;gap:1.5rem;">
+    <a href="/">Home</a>
+    <a href="/#features">Features</a>
+    <a href="/#join">Join</a>
+  </div>
+</nav>
+
+<article>
+  <a href="/" class="back-link">&larr; Back to Better Stuff</a>
+  <h1>Product Quality Checklist for Makers</h1>
+  <div class="meta">March 29, 2026 &middot; 6 min read</div>
+
+  <p>You've built something and you're ready to ship. But have you covered all the bases? This checklist helps indie makers and small teams catch the things that separate a good product from a great one.</p>
+
+  <p>Bookmark this page and run through it before every launch.</p>
+
+  <h2>User Experience</h2>
+  <ul class="checklist">
+    <li>Core user flow works in under 3 clicks/taps</li>
+    <li>Error states are clear and actionable (no generic "Something went wrong")</li>
+    <li>Loading states exist for any action that takes more than 200ms</li>
+    <li>Empty states guide the user toward their first action</li>
+    <li>Navigation is intuitive without a tutorial</li>
+    <li>Forms validate inline, not just on submit</li>
+  </ul>
+
+  <h2>Performance</h2>
+  <ul class="checklist">
+    <li>Page loads in under 3 seconds on a 3G connection</li>
+    <li>Images are optimized and served in modern formats (WebP/AVIF)</li>
+    <li>No render-blocking resources in the critical path</li>
+    <li>Largest Contentful Paint (LCP) under 2.5 seconds</li>
+    <li>Cumulative Layout Shift (CLS) under 0.1</li>
+    <li>JavaScript bundle is code-split and lazy-loaded where possible</li>
+  </ul>
+
+  <h2>Accessibility</h2>
+  <ul class="checklist">
+    <li>All images have descriptive alt text</li>
+    <li>Color contrast meets WCAG AA standards (4.5:1 for text)</li>
+    <li>All interactive elements are keyboard-navigable</li>
+    <li>Form inputs have associated labels</li>
+    <li>ARIA landmarks are used for page structure</li>
+    <li>Focus management is handled on route changes</li>
+  </ul>
+
+  <h2>SEO and Discoverability</h2>
+  <ul class="checklist">
+    <li>Unique, descriptive title tag on every page (under 60 characters)</li>
+    <li>Meta description on every page (under 160 characters)</li>
+    <li>Open Graph and Twitter Card meta tags are set</li>
+    <li>Sitemap.xml exists and is submitted to search consoles</li>
+    <li>Robots.txt is configured correctly</li>
+    <li>Structured data (JSON-LD) is added for rich search results</li>
+    <li>URLs are clean, readable, and keyword-relevant</li>
+  </ul>
+
+  <h2>Security</h2>
+  <ul class="checklist">
+    <li>HTTPS everywhere — no mixed content</li>
+    <li>User input is sanitized and validated server-side</li>
+    <li>Authentication tokens are stored securely (not in localStorage)</li>
+    <li>CORS is configured to allow only trusted origins</li>
+    <li>Dependencies are checked for known vulnerabilities</li>
+  </ul>
+
+  <h2>Launch Readiness</h2>
+  <ul class="checklist">
+    <li>Analytics tracking is in place and verified</li>
+    <li>Error monitoring is configured (Sentry, LogRocket, etc.)</li>
+    <li>Backup and recovery plan exists</li>
+    <li>Social sharing preview looks correct (test with sharing debuggers)</li>
+    <li>Launch announcement is drafted for your channels</li>
+    <li>Feedback channel is set up (email, form, or community)</li>
+  </ul>
+
+  <p>No product needs to be perfect at launch. But running through a checklist like this helps you catch the obvious gaps and ship with confidence. Iterate from a strong baseline.</p>
+
+  <div class="cta-box">
+    <h3>Want tools that make this easier?</h3>
+    <p>Better Stuff gives makers the workflows and automation to hit quality bars without the busywork.</p>
+    <a href="/#join">Get Early Access</a>
+  </div>
+</article>
+
+<footer>
+  <p>&copy; 2026 Better Stuff. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
