@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Choose the Right Product to Build: A Maker's Decision Framework — Better Stuff</title>
+  <meta name="description" content="Not sure what to build next? This buyer-style guide helps makers evaluate product ideas, validate demand, and choose the right project to invest their time in.">
+  <meta name="keywords" content="how to choose what to build, product idea validation, maker decision framework, what product to build, choose the right product, indie maker guide">
+  <link rel="canonical" href="/blog/how-to-choose-the-right-product-to-build.html">
+
+  <meta property="og:title" content="How to Choose the Right Product to Build">
+  <meta property="og:description" content="A maker's decision framework for evaluating ideas and choosing the right product to build.">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Choose the Right Product to Build">
+  <meta name="twitter:description" content="A maker's decision framework for evaluating ideas and choosing the right product to build.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Choose the Right Product to Build: A Maker's Decision Framework",
+    "description": "A practical guide to evaluating product ideas and choosing the right project for makers.",
+    "author": { "@type": "Organization", "name": "Better Stuff" },
+    "publisher": { "@type": "Organization", "name": "Better Stuff" },
+    "datePublished": "2026-03-29",
+    "dateModified": "2026-03-29"
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #0a0a0a; --fg: #fafafa; --accent: #6366f1; --accent-hover: #818cf8; --muted: #a1a1aa; --surface: #18181b; --border: #27272a; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    nav { position: fixed; top: 0; width: 100%; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; background: rgba(10,10,10,0.8); backdrop-filter: blur(12px); z-index: 100; border-bottom: 1px solid var(--border); }
+    nav .logo { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em; }
+    nav .logo span { color: var(--accent); }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+    nav a:hover { color: var(--fg); }
+    article { max-width: 720px; margin: 0 auto; padding: 7rem 2rem 4rem; }
+    article h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 1rem; }
+    article .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+    article h2 { font-size: 1.5rem; font-weight: 700; margin: 2.5rem 0 1rem; letter-spacing: -0.01em; }
+    article h3 { font-size: 1.15rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+    article p { color: #d4d4d8; margin-bottom: 1.25rem; font-size: 1.05rem; }
+    article ul, article ol { margin: 0 0 1.25rem 1.5rem; color: #d4d4d8; }
+    article li { margin-bottom: 0.5rem; font-size: 1.05rem; }
+    article strong { color: var(--fg); }
+    .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+    .back-link:hover { color: var(--accent-hover); }
+    .framework-step { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem; }
+    .framework-step .step-num { display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; border-radius: 50%; text-align: center; line-height: 28px; font-size: 0.85rem; font-weight: 700; margin-right: 0.75rem; }
+    .framework-step h3 { display: inline; font-size: 1.1rem; }
+    .framework-step p { margin-top: 0.75rem; margin-bottom: 0; font-size: 0.95rem; }
+    .cta-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin-top: 3rem; }
+    .cta-box h3 { margin-bottom: 0.5rem; }
+    .cta-box p { color: var(--muted); margin-bottom: 1rem; }
+    .cta-box a { display: inline-block; padding: 0.75rem 1.75rem; background: var(--accent); color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
+    .cta-box a:hover { background: var(--accent-hover); }
+    footer { text-align: center; padding: 3rem 2rem; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" style="text-decoration:none;color:inherit"><div class="logo">better<span>.</span>stuff</div></a>
+  <div style="display:flex;gap:1.5rem;">
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="/#join">Join</a>
+  </div>
+</nav>
+
+<article>
+  <a href="/blog/" class="back-link">&larr; All posts</a>
+  <h1>How to Choose the Right Product to Build</h1>
+  <div class="meta">March 29, 2026 &middot; 7 min read</div>
+
+  <p>Ideas are cheap. Execution is expensive. The most common mistake makers make isn't building badly — it's <strong>building the wrong thing</strong>. Choosing what to work on is the highest-leverage decision you'll make, and most people skip right past it.</p>
+
+  <p>This guide gives you a practical framework for evaluating product ideas so you invest your limited time in something that has a real chance of succeeding.</p>
+
+  <h2>The Idea Evaluation Framework</h2>
+
+  <p>Score every idea across these five dimensions. You don't need a spreadsheet — just honest answers.</p>
+
+  <div class="framework-step">
+    <span class="step-num">1</span>
+    <h3>Problem Clarity</h3>
+    <p>Can you describe the problem in one sentence? Can you name three people who have it? If the problem is vague or you can't point to real humans experiencing it, the idea is too abstract to build on. The clearer the problem, the easier everything downstream becomes — marketing, positioning, feature prioritization.</p>
+  </div>
+
+  <div class="framework-step">
+    <span class="step-num">2</span>
+    <h3>Existing Alternatives</h3>
+    <p>What do people use today to solve this problem? If the answer is "nothing," be skeptical — it might mean the problem isn't painful enough. The best opportunities have existing solutions that are expensive, clunky, or built for a different audience. Your edge is being better for a specific group, not being first.</p>
+  </div>
+
+  <div class="framework-step">
+    <span class="step-num">3</span>
+    <h3>Your Unfair Advantage</h3>
+    <p>Why are you the right person to build this? Maybe you have deep domain expertise. Maybe you are the target user. Maybe you have distribution through an existing audience. If you have no edge over anyone else who could build this, you're competing on pure execution against everyone — and that's a hard game to win.</p>
+  </div>
+
+  <div class="framework-step">
+    <span class="step-num">4</span>
+    <h3>Scope Feasibility</h3>
+    <p>Can you build a useful first version in 4-8 weeks? If the minimum viable product requires six months of work, the risk is too high for most makers. Ideas that require massive upfront investment before delivering any value are startup ideas, not maker ideas. Look for problems where a small, focused tool delivers immediate value.</p>
+  </div>
+
+  <div class="framework-step">
+    <span class="step-num">5</span>
+    <h3>Monetization Path</h3>
+    <p>Is there a clear way to make money (or sustain the project)? You don't need a business plan, but you should be able to answer: "Who would pay for this, and roughly how much?" If the answer is unclear, you might build something people like but can't sustain. Sustainability matters even for side projects.</p>
+  </div>
+
+  <h2>Validation Before Building</h2>
+
+  <p>Once you've identified a promising idea, validate it before writing code. Here's how:</p>
+
+  <ul>
+    <li><strong>Talk to 5 potential users.</strong> Ask about their problem, not your solution. "How do you handle X today?" beats "Would you use a tool that does Y?"</li>
+    <li><strong>Search for demand signals.</strong> Look at Google Trends, Reddit threads, Twitter/X conversations, forum posts. Are people actively looking for solutions?</li>
+    <li><strong>Build a landing page first.</strong> Describe the product, add a waitlist form, and share it. If nobody signs up, you've saved weeks of building.</li>
+    <li><strong>Look for willingness to pay.</strong> If people say "I'd love that" but wouldn't pay $10/month, the demand might be soft. Pre-orders or paid waitlists are the strongest signal.</li>
+  </ul>
+
+  <h2>Red Flags to Watch For</h2>
+
+  <p><strong>"I'll use it myself."</strong> Building for yourself is fine as motivation, but it's not validation. You are one person. Make sure others share the need.</p>
+
+  <p><strong>"It'll go viral."</strong> Virality is a growth mechanism, not a product strategy. Build for a specific audience first. If it goes viral later, great. Don't count on it.</p>
+
+  <p><strong>"Nobody's done this before."</strong> This is almost never true, and when it is, it's often a warning sign. Either someone tried and failed, or the market doesn't exist. Investigate before celebrating.</p>
+
+  <p><strong>"I just need to add one more feature."</strong> Scope creep before launch is the most common way maker projects die. If your V1 keeps growing, you haven't defined it clearly enough. Cut until it hurts, then cut more.</p>
+
+  <h2>The Decision</h2>
+
+  <p>After scoring your ideas and doing basic validation, pick the one that scores highest on problem clarity and feasibility. Not the most exciting idea — the most <strong>buildable and testable</strong> one.</p>
+
+  <p>You can always pivot later. You can't get back the months spent building something nobody wanted. <strong>Choose clarity over ambition, and ship over perfection.</strong></p>
+
+  <div class="cta-box">
+    <h3>Ready to build the right thing?</h3>
+    <p>Better Stuff gives makers the frameworks and tools to ship products people actually want.</p>
+    <a href="/#join">Get Early Access</a>
+  </div>
+</article>
+
+<footer>
+  <p>&copy; 2026 Better Stuff. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
