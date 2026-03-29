@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Better Stuff Blog</title>
+    <description>Tools, insights, and community for makers who refuse to settle. Ship better products, faster.</description>
+    <link>https://mrmatos6837.github.io/better-stuff/</link>
+    <atom:link href="https://mrmatos6837.github.io/better-stuff/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Why Product Reviews Are Broken (And What Makers Can Do About It)</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/why-product-reviews-are-broken.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/why-product-reviews-are-broken.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>The review ecosystem is failing both consumers and creators. Here's what's wrong and how makers can build trust in a post-review world.</description>
+    </item>
+
+    <item>
+      <title>Best Maker Tools 2026: The Complete Guide</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/best-maker-tools-2026.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/best-maker-tools-2026.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>A comprehensive guide to the best tools for makers in 2026 — from prototyping to launch and beyond.</description>
+    </item>
+
+    <item>
+      <title>How to Choose the Right Product to Build</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/how-to-choose-the-right-product-to-build.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/how-to-choose-the-right-product-to-build.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>A practical framework for deciding what to build next, based on market demand, your skills, and real validation signals.</description>
+    </item>
+
+    <item>
+      <title>How to Measure Product Impact: Metrics That Actually Matter</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/measure-product-impact-metrics-that-matter.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/measure-product-impact-metrics-that-matter.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Stop tracking vanity metrics. Here are the product metrics that actually tell you if you're building something people want.</description>
+    </item>
+
+    <item>
+      <title>The Product Quality Checklist for Makers</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/product-quality-checklist-for-makers.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/product-quality-checklist-for-makers.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>A practical checklist to ensure your product meets high quality standards before you ship it to users.</description>
+    </item>
+
+    <item>
+      <title>How to Ship Better Products Faster</title>
+      <link>https://mrmatos6837.github.io/better-stuff/blog/ship-better-products-faster.html</link>
+      <guid>https://mrmatos6837.github.io/better-stuff/blog/ship-better-products-faster.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Practical strategies for shipping higher-quality products without slowing down. Speed and quality aren't opposites.</description>
+    </item>
+  </channel>
+</rss>

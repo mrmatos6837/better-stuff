@@ -1,61 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/about.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/about.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>/how-it-works.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/how-it-works.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>/blog/</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>/blog/ship-better-products-faster.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/ship-better-products-faster.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/blog/product-quality-checklist-for-makers.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/product-quality-checklist-for-makers.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/blog/measure-product-impact-metrics-that-matter.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/measure-product-impact-metrics-that-matter.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/blog/best-maker-tools-2026.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/best-maker-tools-2026.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/blog/how-to-choose-the-right-product-to-build.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/how-to-choose-the-right-product-to-build.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/blog/why-product-reviews-are-broken.html</loc>
+    <loc>https://mrmatos6837.github.io/better-stuff/blog/why-product-reviews-are-broken.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mrmatos6837.github.io/better-stuff/resources.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
